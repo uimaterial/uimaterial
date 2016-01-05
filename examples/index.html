@@ -7,6 +7,12 @@
     <title>Examples</title>
 
     <style>
+
+        .html, body {
+            margin:0;
+            padding: 0;
+        }
+
         .section {
             width: 100%;
             height: auto;
@@ -16,15 +22,22 @@
             box-sizing: border-box;
             background-color: #BDBDBD;
             height: 100px;
-            padding-left: 8px;
-            padding-top: 4px;
             color: white;
+        }
+
+        .grid-cell .grid .grid-cell {
+            background-color: #dfdfdf !important;
+            border: 1px solid #000;
         }
 
 
         .grid-fixed-height {
             height: 200px;
             background-color: antiquewhite;
+        }
+
+        .layout-container {
+            min-height: 400px;
         }
     </style>
 </head>
@@ -59,14 +72,35 @@
             <div class="grid-cell cell-2-col cell-4-col-phone">2 (4 phone)</div>
         </div>
 
-        <div class="grid">
-            <div class="grid-cell cell-6-col is-stretched">6</div>
-            <div class="grid-cell cell-4-col">4</div>
-            <div class="grid-cell cell-2-col">2</div>
+        <div class="grid layout-container">
+            <div class="grid-cell cell-6-col is-stretched">
+                <div class="grid layout-container">
+                    <div class="grid-cell cell-1-col on-top"> Top</div>
+                    <div class="grid-cell cell-1-col on-middle">Middle</div>
+                    <div class="grid-cell cell-1-col on-bottom">Bottom</div>
+                    <div class="grid-cell cell-9-col is-stretched">Stretched</div>
+                </div>
+            </div>
+            <div class="grid-cell cell-6-col is-stretched">
+                <div class="grid grid-no-spacing">
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
 
-            <div class="grid-cell cell-4-col">4</div>
-            <div class="grid-cell cell-2-col">2</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
 
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    <div class="grid-cell cell-4-col">4</div>
+                    
+                </div>
+            </div>
         </div>
 
         <div class="grid">
