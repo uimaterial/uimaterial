@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="uikit.css">
+    <title>Examples</title>
+
+    <style>
+        .section {
+            width: 100%;
+            height: auto;
+        }
+
+        .grid-cell {
+            box-sizing: border-box;
+            background-color: #BDBDBD;
+            height: 100px;
+            padding-left: 8px;
+            padding-top: 4px;
+            color: white;
+        }
+
+
+        .grid-fixed-height {
+            height: 200px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="grid">
+            <div class="grid-cell cell-1-col">1</div>
+            <div class="grid-cell cell-1-col">1</div>
+            <div class="grid-cell cell-1-col">1</div>
+            <div class="grid-cell cell-1-col">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+        </div>
+        <div class="grid grid-no-spacing">
+            <div class="grid-cell cell-4-col">4</div>
+            <div class="grid-cell cell-4-col">4</div>
+            <div class="grid-cell cell-4-col">4</div>
+        </div>
+        <div class="grid">
+            <div class="grid-cell cell-6-col">6</div>
+            <div class="grid-cell cell-4-col">4</div>
+            <div class="grid-cell cell-2-col">2</div>
+
+            <div class="grid-cell cell-6-col cell-8-col-tablet">6 (8 tablet)</div>
+            <div class="grid-cell cell-4-col cell-6-col-tablet">4 (6 tablet)</div>
+            <div class="grid-cell cell-2-col cell-4-col-phone">2 (4 phone)</div>
+        </div>
+
+        <div class="grid">
+            <div class="grid-cell cell-6-col is-stretched">6</div>
+            <div class="grid-cell cell-4-col">4</div>
+            <div class="grid-cell cell-2-col">2</div>
+
+            <div class="grid-cell cell-4-col">4</div>
+            <div class="grid-cell cell-2-col">2</div>
+
+        </div>
+
+        <div class="grid">
+
+            <div class="grid-cell cell-4-col cell-6-col-tablet cell-4-offset-desktop cell-1-offset-tablet">4 (6 tablet)</div>
+
+        </div>
+
+        <div class="grid grid-fixed-height">
+            <div class="grid-cell cell-1-col on-top"> Top</div>
+            <div class="grid-cell cell-1-col on-middle">Middle</div>
+            <div class="grid-cell cell-1-col on-bottom">Bottom</div>
+            <div class="grid-cell cell-1-col is-stretched">Stretched</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+            <div class="grid-cell cell-1-col hide-on-phone hide-on-tablet">1</div>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <h1 class="font-thin">Heading H1 (thin)</h1>
+        <h1>Heading H1 <small>Small text under heading</small></h1>
+
+        <h2 class="font-thin">Heading H2 (thin)</h2>
+        <h2>Heading H2 <small>Small text under heading</small></h2>
+
+        <h3 class="font-thin">Heading H3 (thin)</h3>
+        <h3>Heading H3 <small>Small text under heading</small></h3>
+
+        <h4 class="font-thin">Heading H4 (thin)</h4>
+        <h4>Heading H4 <small>Small text under heading</small></h4>
+
+        <h5 class="font-thin">Heading H5 (thin)</h5>
+        <h5>Heading H5 <small>Small text under heading</small></h5>
+
+        <h6 class="font-thin">Heading H6 (thin)</h6>
+        <h6>Heading H6 <small>Small text under heading</small></h6>
+
+        <p class="text-nowrap">Paragraph text 1 (no wrap), Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+        <p class="font-thin">Paragraph text 2 (thin), Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+        <p>Paragraph text 3, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White <mark>cold</mark> drink</dd>
+        </dl>
+
+
+        <table>
+            <caption>Monthly savings</caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+        </table>
+
+        <h6>List - subheading</h6>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ul>
+                    <li>Item 3.1</li>
+                    <li>Item 3.2</li>
+                </ul>
+            </li>
+            <li class="text-uppercase">item 4</li>
+        </ul>
+
+        <h6 class="text-capitalize">address - subheading capitalize</h6>
+        <address>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+
+        <a href="#">A link provided on text</a>
+    </div>
+</body>
+</html>

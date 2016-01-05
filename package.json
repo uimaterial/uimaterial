@@ -1,0 +1,26 @@
+{
+  "name": "gridmaterial",
+  "version": "1.0.0",
+  "description": "Grid for material design",
+  "main": "css/grid.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raftalks@github.com/uimaterial/gridmaterial.git"
+  },
+  "keywords": [
+    "gridmaterial"
+  ],
+  "author": "raftalks@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uimaterial/gridmaterial/issues"
+  },
+  "homepage": "https://github.com/uimaterial/gridmaterial#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1"
+  }
+}

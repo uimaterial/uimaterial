@@ -1,0 +1,9 @@
+@import "../themes";
+
+$preferred_font: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$preferred_font_size: 14px;
+$preferred_line_height: 20px;
+
+
+
+$text-link-color: unquote("rgb(#{$color-accent})") !default;
