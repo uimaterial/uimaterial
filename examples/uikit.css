@@ -1,3 +1,33 @@
+.toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+  background-color: #dddddd;
+  align-items: center; }
+  .toolbar .tool-set {
+    height: 64px;
+    color: #000000;
+    margin: 0;
+    line-height: 64px;
+    border-right: 1px solid #000;
+    padding-left: 8px;
+    padding-right: 8px; }
+    .toolbar .tool-set ul {
+      list-style: none;
+      display: flex;
+      line-height: 64px;
+      align-items: center;
+      flex-direction: row;
+      margin: 0;
+      padding: 0; }
+      .toolbar .tool-set ul li.nav-link {
+        text-decoration: none;
+        margin-right: 8px;
+        margin-left: 8px; }
+
 /* GRID */
 .grid {
   display: flex;

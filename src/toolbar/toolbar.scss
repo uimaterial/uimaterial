@@ -1,12 +1,39 @@
 @import 'toolbar-variables';
 
 .toolbar {
-  diplay: flex;
+  display: flex;
   flex-wrap: nowrap;
   box-sizing: border-box;
   flex-direction: row;
   position: relative;
   z-index: 2;
+  background-color: $toolbar-background-color;
+  align-items: center;
+
+  .tool-set {
+    height: $toolbar-height;
+    color: $toolbar-text-color;
+    margin: 0;
+    line-height: $toolbar-height;
+    border-right:1px solid #000;
+    padding-left: $toolbar-toolset-gutter / 2;
+    padding-right: $toolbar-toolset-gutter / 2;
+
+    ul {
+      list-style: none;
+      display: flex;
+      line-height: $toolbar-height;
+      align-items: center;
+      flex-direction: row;
+      margin: 0;
+      padding:0;
+      li.nav-link {
+        text-decoration: none;
+        margin-right: $toolbar-toolset-gutter / 2;
+        margin-left: $toolbar-toolset-gutter / 2;
+      }
+    }
+  }
 }
 
 

@@ -1,9 +1,13 @@
 // Standard/Desktop Heights
 $toolbar-height: 64px !default;
-
+$toolbar-toolset-gutter: 16px !default;
 
 // Tablet Heights
 $toolbar-height-tablet: 56px !default;
 
 // Phone portrait heights
 $toolbar-height-phone: 56px !default;
+
+// colors
+$toolbar-background-color: #dddddd !default;
+$toolbar-text-color: #000000 !default;
